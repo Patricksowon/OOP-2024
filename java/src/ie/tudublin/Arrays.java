@@ -101,8 +101,6 @@ public class Arrays extends PApplet
 		colorMode(HSB);
 		background(0);
 		randomize();
-		
-		
 	}
 
 	

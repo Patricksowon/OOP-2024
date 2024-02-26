@@ -8,15 +8,12 @@ public class MultiSensoryFoLoopExperience extends PApplet {
 
 	int mode = 0;
 
-    
-
 	public void settings() {
 		size(500, 500);
 	}
 
 	public void setup() {
 		colorMode(HSB);
-
 	}
 
 	public void keyPressed() {

@@ -4,10 +4,13 @@ import processing.core.PApplet;
 
 public class Life extends PApplet {
 
+    LifeBoard lifeboard;
     
     public void setup()
     {
-
+        lifeboard = new LifeBoard(50, 50, this);
+        lifeboard.randomize();    
+        background(0);
     }
 
     public void settings()
@@ -17,7 +20,7 @@ public class Life extends PApplet {
 
     public void draw()
     {
-
+        lifeboard.update();
+        lifeboard.render();
     }
-    
 }
